@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-header">
+        <h1>Survey Questions</h1>
+      </div>
+      <div class="card-body">
+        <h2>About You</h2>
+        <form action="home.html">
+          <label for="name">Name (Required)</label>
+          <br />
+          <input type="text" name="name" id="friendName" required />
+          <br />
+          <label for="photo">Link to Photo Image (Required)</label>
+          <br />
+          <input type="text" name="photo" id="friendPhoto" required />
+          <!-- ----------------------- -->
+          <h2>Question 1</h2>
+          <label for="question1"
+            >Your mind is always buzzing with unexplored ideas and plans.</label
+          >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label for="inputGroupSelect01" class="input-group-text"
+                >Options</label
+              >
+            </div>
+            <select id="inputGroupSelect01" class="custom-select">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+            </select>
+          </div>
+          <!-- ----------------------- -->
+          <h2>Question 2</h2>
+          <label for="question1"
+            >Generally speaking, you rely more on your experience than your
+            imagination.</label
+          >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label for="inputGroupSelect02" class="input-group-text"
+                >Options</label
+              >
+            </div>
+            <select id="inputGroupSelect02" class="custom-select">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+            </select>
+          </div>
+          <!-- ----------------------- -->
+          <h2>Question 3</h2>
+          <label for="question3"
+            >You find it easy to stay relaxed and focused even when there is
+            some pressure.</label
+          >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label for="inputGroupSelect03" class="input-group-text"
+                >Options</label
+              >
+            </div>
+            <select id="inputGroupSelect03" class="custom-select">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+            </select>
+          </div>
+          <!-- ----------------------- -->
+          <h2>Question 4</h2>
+          <label for="question4"
+            >You rarely do something just out of sheer curiousity.</label
+          >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label for="inputGroupSelect04" class="input-group-text"
+                >Options</label
+              >
+            </div>
+            <select id="inputGroupSelect04" class="custom-select">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+            </select>
+          </div>
+          <!-- ----------------------- -->
+          <h2>Question 5</h2>
+          <label for="question5">People can rarely upset you.</label>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label for="inputGroupSelect05" class="input-group-text"
+                >Options</label
+              >
+            </div>
+            <select id="inputGroupSelect05" class="custom-select">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+            </select>
+          </div>
+          <!-- ----------------------- -->
+          <h2>Question 6</h2>
+          <label for="question6"
+            >It is often difficult for you to relate to other people's
+            feeling.</label
+          >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label for="inputGroupSelect06" class="input-group-text"
+                >Options</label
+              >
+            </div>
+            <select id="inputGroupSelect06" class="custom-select">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+            </select>
+          </div>
+          <!-- ----------------------- -->
+          <h2>Question 7</h2>
+          <label for="question7"
+            >In a discussion, truth should be more important than people's
+            sensitivities.</label
+          >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label for="inputGroupSelect07" class="input-group-text"
+                >Options</label
+              >
+            </div>
+            <select id="inputGroupSelect07" class="custom-select">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+            </select>
+          </div>
+          <!-- ----------------------- -->
+          <h2>Question 8</h2>
+          <label for="question8"
+            >You rarely get carried away by fantasies and ideas.</label
+          >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label for="inputGroupSelect08" class="input-group-text"
+                >Options</label
+              >
+            </div>
+            <select id="inputGroupSelect08" class="custom-select">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+            </select>
+          </div>
+          <!-- ----------------------- -->
+          <h2>Question 9</h2>
+          <label for="question9"
+            >You think that everyone's views should be respected regardless of
+            whether they are supported by facts or not.</label
+          >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label for="inputGroupSelect09" class="input-group-text"
+                >Options</label
+              >
+            </div>
+            <select id="inputGroupSelect09" class="custom-select">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+            </select>
+          </div>
+          <!-- ----------------------- -->
+          <h2>Question 10</h2>
+          <label for="question10"
+            >You feel more energetic after spending time with a group of
+            people.</label
+          >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label for="inputGroupSelect10" class="input-group-text"
+                >Options</label
+              >
+            </div>
+            <select id="inputGroupSelect10" class="custom-select">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+            </select>
+          </div>
+          <!-- ----------------------- -->
+          <button type="submit" class="btn btn-primary submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <a href="/api/friends">API Friends List |</a
+    ><a href="https://github.com/Fitzpa/FriendFinderApp"> Github Repo</a>
+    <div id="resultsModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+            <h2 class="modal-title"><strong>Best Match</strong></h2>
+          </div>
+
+          <div class="modal-body">
+            <h2 id="matchName"></h2>
+            <img
+              id="matchImg"
+              src="https://via.placeholder.com/400x400"
+              alt="Placeholder image in case user pic doesn't show" class="img-responsive"
+            />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+  // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+  // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+  // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+  // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+
+  $(".submit").on("click", function(event) {
+    event.preventDefault();
+    let friendScore = [];
+    let totalScore = 0;
+    for (let i = 0; i < 10; i++) {
+      console.log(i + 1);
+      let num = parseInt(i) + parseInt(1);
+      if (num < 10) {
+        friendScore.push($("#inputGroupSelect0" + num).val());
+      } else {
+        friendScore.push($("#inputGroupSelect" + num).val());
+      }
+      totalScore += parseInt(friendScore[i]);
+    }
+    console.log(totalScore);
+    console.log(friendScore);
+    // Here we grab the form elements
+    var newFriend = {
+      name: $("#friendName")
+        .val()
+        .trim(),
+      photo: $("#friendPhoto")
+        .val()
+        .trim(),
+      score: friendScore,
+      total: totalScore
+    };
+
+    // This line is the magic. It"s very similar to the standard ajax function we used.
+    // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+    // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+    // depending on if a tables is available or not.
+
+    $.post("/api/friends", newFriend, function(data) {
+      // Finding a match
+      $("#matchName").text(data.name);
+      $("#matchImg").attr("src", data.photo);
+      $("#resultsModal").modal("toggle");
+
+      // Clear all inputs
+      $("#friendName").val("");
+      $("#friendPhoto").val("");
+      clearSelects();
+    });
+  });
+  function clearSelects() {
+    $("select").val("0");
+  }
+</script>
